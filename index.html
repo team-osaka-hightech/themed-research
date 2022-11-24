@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-
-<html lang="ja">
-
-
 <head>
-    
+    <link href="index.css" rel="stylesheet">
+
     <meta charset = "UTF-8">
     <title>大阪ハイテク　公欠届</title>
 
 </head>
 
-<div>
-<img src="ハイテクロゴ1.png">
-<p style="text-align: right">
-    <script src="index.js"></script></p>
+<body>
+    <div class="titlebar">
+        <figure class="logo">
+            <img src="ハイテクロゴ1.png">
+        </figure>
+        <div class="title">
+            <h1>公欠届</h1>
+        </div>
+        <div class="time">
+            <script src="index.js"></script>
+        </div>
+    </div> 
+</body>
 
-<h1  style="text-align :center" >公欠届</h1>
-
-</div>
 <p>必要な情報を入力し、公欠届を提出してください。</p>
 
-<label for="name">氏名</label>
+<body>
+<label for="name">&emsp;氏名</label>
 <input type="text" id="name" name="name" >
+
+</body>
 
 
 <select name="所属学科">
@@ -41,8 +46,10 @@
 <input type="radio" id="contactChoice2" name="contact" value="name" />
 <label for="contactChoice2">夜間</label>
 
-
-
+<div>
+<label for="name">担任名</label>
+<input type="text" id="name" name="name" >
+</div>
 
 
 

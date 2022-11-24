@@ -1,0 +1,15 @@
+.titlebar{
+    display: table; width: 100%;
+}
+.logo{
+    display: inline-block;
+    display: table-cell;text-align: left;
+}
+.title{
+    display: inline-block;
+    display: table-cell;text-align: right;
+}
+.time{
+    display: inline-block;
+    display: table-cell;text-align: right;
+}

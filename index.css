@@ -13,3 +13,20 @@
     display: inline-block;
     display: table-cell;text-align: right;
 }
+.ai{
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.ue{
+    width: 40%;
+    height: 183px;
+    text-align: center;
+    
+}
+
+.oo{
+    text-align: left;
+}

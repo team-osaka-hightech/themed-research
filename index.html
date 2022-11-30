@@ -23,8 +23,8 @@
 <p>必要な情報を入力し、公欠届を提出してください。</p>
 
 <body>
-<label for="name">&emsp;&emsp;氏名</label>
-<input type="text" id="name" name="name" >
+
+<input type="text" id="name" name="name" placeholder="氏名">
 
 </body>
 
@@ -43,7 +43,7 @@
 </select>
 
 <select name="学年">
-  <option>学年</option>
+  <option value="" selected disabled>学年</option>
   <option>1年</option>
   <option>2年</option>
   <option>3年</option>
@@ -51,18 +51,21 @@
 </select>
 
 
-<label for="name">&emsp;番号</label>
-<input type="text" id="name" name="name" >
 
-<input type="radio" id="contactChoice1" name="contact" value="name" />
+<input type="number" id="name" name="name" placeholder="出席番号(数字のみ)" min="1">
+
+<input type="radio" id="contactChoice1" name="contact" value="name">
 <label for="contactChoice1">昼間</label>
-<input type="radio" id="contactChoice2" name="contact" value="name" />
+<input type="radio" id="contactChoice2" name="contact" value="name">
 <label for="contactChoice2">夜間</label>
 
 <div>
-<label for="name">&emsp;担任名</label>
-<input type="text" id="name" name="name" >
+
+<input type="text" id="name" name="name" placeholder="担任名">
+
 </div>
+
+<p></p>
 
 <div>
   <label for="name">公欠日時</label>

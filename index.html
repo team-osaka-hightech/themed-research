@@ -1,45 +1,58 @@
 <head>
-    <link href="index.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
 
-    <meta charset = "UTF-8">
-    <title>大阪ハイテク　公欠届</title>
+  <meta charset = "UTF-8">
+  <title>大阪ハイテク　公欠届</title>
 
 </head>
 
 <body>
-    <div class="titlebar">
-        <figure class="logo">
-            <img src="ハイテクロゴ1.png">
-        </figure>
-        <div class="title">
-            <h1>公欠届</h1>
-        </div>
-        <div class="time">
-            <script src="index.js"></script>
-        </div>
-    </div> 
+  <div class="titlebar">
+      <figure class="logo">
+          <img src="ハイテクロゴ1.png">
+      </figure>
+      <div class="title">
+          <h1>公欠届</h1>
+      </div>
+      <div class="time">
+          <script src="index.js"></script>
+      </div>
+  </div> 
 </body>
 
 <p>必要な情報を入力し、公欠届を提出してください。</p>
 
 <body>
-<label for="name">&emsp;氏名</label>
+<label for="name">&emsp;&emsp;氏名</label>
 <input type="text" id="name" name="name" >
 
 </body>
 
 
 <select name="所属学科">
-    <option>スポーツ科学科        </option>
-    <option>鍼灸スポーツ学科      </option>
-    <option>柔道整復スポーツ学科  </option>
-    <option>柔道整復師学科        </option>
-    <option>人工知能学科          </option>
-    <option>バイオ・再生医療学科  </option>
-    <option>臨床工学技士学科      </option>
-    <option>臨床工学技士専攻科    </option>
-    <option>診療放射線技師学科    </option>
+  <option>学科名</option>
+  <option>スポーツ科学科        </option>
+  <option>鍼灸スポーツ学科      </option>
+  <option>柔道整復スポーツ学科  </option>
+  <option>柔道整復師学科        </option>
+  <option>人工知能学科          </option>
+  <option>バイオ・再生医療学科  </option>
+  <option>臨床工学技士学科      </option>
+  <option>臨床工学技士専攻科    </option>
+  <option>診療放射線技師学科    </option>
 </select>
+
+<select name="学年">
+  <option>学年</option>
+  <option>1年</option>
+  <option>2年</option>
+  <option>3年</option>
+  <option>4年</option>
+</select>
+
+
+<label for="name">&emsp;番号</label>
+<input type="text" id="name" name="name" >
 
 <input type="radio" id="contactChoice1" name="contact" value="name" />
 <label for="contactChoice1">昼間</label>
@@ -47,82 +60,94 @@
 <label for="contactChoice2">夜間</label>
 
 <div>
-<label for="name">担任名</label>
+<label for="name">&emsp;担任名</label>
 <input type="text" id="name" name="name" >
 </div>
+
+<div>
+  <label for="name">公欠日時</label>
+  <input type="date">
+</div>
+
 
 <p></p>
 
 <body>
 
-<div class="ai">
+<div class="lesson">
 <table border="1" width="50%">
-    <tr>
-      <th width="10%" align="center">時限</th>
-      <th width="90%" align="center">科目名</th>
-    </tr>
-    <tr>
-      <td align="center">1限</td>
-      <th contenteditable=true></th>
-    </tr>
-    <tr>
-      <td align="center">2限</td>
-      <th contenteditable=true></th>
-    <tr>
-      <td align="center">3限</td>
-      <th contenteditable=true></th>
-    <tr>
-      <td align="center">4限</td>
-      <th contenteditable=true></th>
-    </tr>
-    <tr>
-      <td align="center">5限</td>
-      <th contenteditable=true></th>
-    <tr>
-      <td align="center">6限</td>
-      <th contenteditable=true></th>
-    </tr>
-  </table>
+  <tr>
+    <th width="10%" align="center">時限</th>
+    <th width="90%" align="center">科目名</th>
+  </tr>
+  <tr>
+    <td align="center">1限</td>
+    <th contenteditable=true></th>
+  </tr>
+  <tr>
+    <td align="center">2限</td>
+    <th contenteditable=true></th>
+  <tr>
+    <td align="center">3限</td>
+    <th contenteditable=true></th>
+  <tr>
+    <td align="center">4限</td>
+    <th contenteditable=true></th>
+  </tr>
+  <tr>
+    <td align="center">5限</td>
+    <th contenteditable=true></th>
+  <tr>
+    <td align="center">6限</td>
+    <th contenteditable=true></th>
+  </tr>
+</table>
 
-  <div class="ue" style="padding: 10px; margin-bottom: 20px; border: 5px double #333333;">
-   公欠理由
-    <p>&emsp;</p>
-   
+<div class="reason" style="padding: 10px; margin-bottom: 20px; border: 5px double #333333;">
+ 公欠理由
+  <p>&emsp;</p>
+ 
 
-    <div class="oo">
-      <input type="radio" id="contactChoice1" name="contact" value="name" />
-      <label for="contactChoice1">1.就職試験</label>
-      <label for="name">&emsp;&emsp;&emsp;会社名</label>
-      <input type="text" id="name" name="name" >
+  <div class="centered">
+    <input type="radio" id="contactChoice1" name="contact" value="name" />
+    <label for="contactChoice1">1.就職試験</label>
+    <label for="name">&emsp;&emsp;&emsp;会社名</label>
+    <input type="text" id="name" name="name" >
 
-      <br>
-      <input type="radio" id="contactChoice2" name="contact" value="name" />
-      <label for="contactChoice2">2.会社訪問</label>
-      <label for="name">&emsp;&emsp;&emsp;会社名</label>
-      <input type="text" id="name" name="name" >
-      </br>
+    <br>
+    <input type="radio" id="contactChoice2" name="contact" value="name" />
+    <label for="contactChoice2">2.会社訪問</label>
+    <label for="name">&emsp;&emsp;&emsp;会社名</label>
+    <input type="text" id="name" name="name" >
+    </br>
 
-      <input type="radio" id="contactChoice1" name="contact" value="name" />
-      <label for="contactChoice1">3.忌引</label>
-      <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;続柄</label>
-      <input type="text" id="name" name="name" >
+    <input type="radio" id="contactChoice1" name="contact" value="name" />
+    <label for="contactChoice1">3.忌引</label>
+    <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;続柄</label>
+    <input type="text" id="name" name="name" >
 
-      <br>
-      <input type="radio" id="contactChoice2" name="contact" value="name" />
-      <label for="contactChoice2">4.その他</label>
-      <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-      <input type="text" id="name" name="name" >
-      </br>
+    <br>
+    <input type="radio" id="contactChoice2" name="contact" value="name" />
+    <label for="contactChoice2">4.その他</label>
+    <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+    <input type="text" id="name" name="name" >
+    </br>
 
-      </div>
-  </div>
+    </div>
+</div>
 
 
 </div>
 
+<div class="space">
+
+</div>
+
+<div class="button">
+  <input type="submit" id="btn" value="送信" class="btn" >
+</div>
+
 </body>
-
-
 
 
 

@@ -13,20 +13,48 @@
     display: inline-block;
     display: table-cell;text-align: right;
 }
-.ai{
+.lesson{
 
     display: flex;
     justify-content: space-evenly;
-    height: 100px;
+    height: 215px;
 }
 
-.ue{
+.reason{
     width: 40%;
-    height: 183px;
+    height: 186px;
     text-align: center;
     
 }
 
-.oo{
+.centered{
     text-align: left;
 }
+
+.space{
+    height:150px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: #ca353b;
+    border: 2px solid transparent;
+    color:  #fff;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+   
+  .btn:focus,
+  .btn:hover {
+    background: #fff;
+    border-color: currentColor;
+    color: #ca353b;
+  }
+   
+
+
+ 

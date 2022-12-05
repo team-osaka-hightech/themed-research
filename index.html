@@ -7,12 +7,13 @@
 </head>
 
 <body>
+  
   <div class="titlebar">
       <figure class="logo">
           <img src="ハイテクロゴ1.png">
       </figure>
       <div class="title">
-          <h1>公欠届</h1>
+          <h1><font size="7" face="ＭＳ Ｐ明朝">公欠届</font></h1>
       </div>
       <div class="time">
           <script src="index.js"></script>
@@ -20,7 +21,7 @@
   </div> 
 </body>
 
-<p>必要な情報を入力し、公欠届を提出してください。</p>
+<p><b>必要な情報を入力し、公欠届を提出してください。</b></p>
 
 <body>
 
@@ -30,7 +31,7 @@
 
 
 <select name="所属学科">
-  <option>学科名</option>
+  <option value="" selected disabled>学科名</option>
   <option>スポーツ科学科        </option>
   <option>鍼灸スポーツ学科      </option>
   <option>柔道整復スポーツ学科  </option>
@@ -113,25 +114,25 @@
 
   <div class="centered">
     <input type="radio" id="contactChoice1" name="contact" value="name" />
-    <label for="contactChoice1">1.就職試験</label>
+    <label for="contactChoice1">就職試験</label>
     <label for="name">&emsp;&emsp;&emsp;会社名</label>
     <input type="text" id="name" name="name" >
 
     <br>
     <input type="radio" id="contactChoice2" name="contact" value="name" />
-    <label for="contactChoice2">2.会社訪問</label>
+    <label for="contactChoice2">会社訪問</label>
     <label for="name">&emsp;&emsp;&emsp;会社名</label>
     <input type="text" id="name" name="name" >
     </br>
 
     <input type="radio" id="contactChoice1" name="contact" value="name" />
-    <label for="contactChoice1">3.忌引</label>
+    <label for="contactChoice1">忌引</label>
     <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;続柄</label>
     <input type="text" id="name" name="name" >
 
     <br>
     <input type="radio" id="contactChoice2" name="contact" value="name" />
-    <label for="contactChoice2">4.その他</label>
+    <label for="contactChoice2">その他</label>
     <label for="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
     <input type="text" id="name" name="name" >
     </br>

@@ -14,13 +14,14 @@
     display: table-cell;text-align: right;
 }
 .lesson{
-
+    
     display: flex;
     justify-content: space-evenly;
     height: 215px;
 }
 
 .reason{
+    
     width: 40%;
     height: 186px;
     text-align: center;
@@ -39,7 +40,7 @@
     display: block;
     margin: auto;
     text-align: center;
-    background: #ca353b;
+    background: navy;
     border: 2px solid transparent;
     color:  #fff;
     width: 300px;
@@ -52,7 +53,7 @@
   .btn:hover {
     background: #fff;
     border-color: currentColor;
-    color: #ca353b;
+    color: navy;
   }
    
 
